@@ -1,0 +1,62 @@
+/* ovo je CSS datoteka */
+
+body {
+    background-color:#66ffff;
+    font-family: Arial, sans-serif;
+    width: 1920px;
+}
+
+h1 {
+    color: blue;
+    text-decoration: underline;
+}
+
+nav {
+    background-color:grey;
+    height:30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+  float: left;
+  margin:10px;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1 {
+    text-align:center;
+}
+
+p {
+    font-size:24px;
+    text-align:center;
+    color:blue;
+}

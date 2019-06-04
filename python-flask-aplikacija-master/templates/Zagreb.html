@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id="header">
+    <img src="/static/img/header.jpg" alt="header" width="1920px" height="200px">
+</div>
+
+
+<h1>Trenutačno vrijeme u Zagrebu</h1>
+
+<h2>Lokacija:   {{ data.name }} </h2>
+
+<h2>Temperatura:    {{ data.main.temp }} &#176;C </h2>
+
+<img src="http://openweathermap.org/img/w/{{ data.weather[0].icon }}.png" alt="ikona">
+
+
+
+{% endblock content %}
